@@ -1,0 +1,16 @@
+header {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.route-part {
+    color: #146c43;
+    font-weight: 800;
+}
