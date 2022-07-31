@@ -47,13 +47,9 @@ if (isset($_COOKIE['user_id'])) {
         <?php else: ?>
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Si eres usuario de la alcaldia por favor</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="login.php" class="btn btn-success">Login</a> o
+                    <a href="login.php" class="btn btn-success">Login</a>
                     <a href="signup.php" class="btn btn-success">Registrarse</a>
+                    <a href="about_us.php" class="btn btn-success">Autores</a>
                 </div>
             </div>
         <?php endif; ?>
